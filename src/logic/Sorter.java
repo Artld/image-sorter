@@ -57,9 +57,9 @@ public class Sorter
 				}
 			}
 			counter++;
-		    percent = counter * 100 / total;
-		    progress.setString("Processing " + percent + "%");
-		    progress.setValue(percent);
+			percent = counter * 100 / total;
+			progress.setString("Processing " + percent + "%");
+			progress.setValue(percent);
 		}
 		progress.setString("Done!");
 		progress.setValue(100);
